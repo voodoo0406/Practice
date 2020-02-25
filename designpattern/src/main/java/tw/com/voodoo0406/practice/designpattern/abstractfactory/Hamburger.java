@@ -2,8 +2,8 @@ package tw.com.voodoo0406.practice.designpattern.abstractfactory;
 
 public class Hamburger implements IFood {
 
-  protected ICheese cheese;
-  protected ISauce sauce;
+  private ICheese cheese;
+  private ISauce sauce;
 
   public Hamburger(ICheese cheese, ISauce sauce) {
     this.cheese = cheese;
